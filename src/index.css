@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #3498db;
+    --primary-light: #5dade2;
+    --primary-dark: #2980b9;
+    --secondary-color: #2ecc71;
+    --secondary-light: #58d68d;
+    --secondary-dark: #27ae60;
+    --font-family: 'Segoe UI', sans-serif;
+    --font-size: 1rem;
+    --font-weight: 400;
+    --spacing-unit: 1rem;
+    --spacing-small: calc(var(--spacing-unit) * 0.5);
+    --spacing-large: calc(var(--spacing-unit) * 2);
+    --border-radius: 4px;
+    --border-width: 1px;
+    --border-color: #ddd;
+    --transition-duration: 0.3s;
+    --transition-timing: ease-in-out;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-offset: 0 2px 4px;
+}
+.card{
+  height:200px;
+  width:200px;
+  border:1px solid black;
+}
